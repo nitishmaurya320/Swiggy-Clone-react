@@ -1,14 +1,14 @@
 const FoodData=[
     {
-        FoodImage: '../../FoodData/FoodImages/Biryani.png',
+        FoodImage: '../../FoodData./FoodImages./Biryani.png',
         FoodName: 'Biryani'
     },
     {
-        FoodImage: '../../FoodData/FoodImages/Burger.png',
+        FoodImage: '././FoodData/FoodImages/Burger.png',
         FoodName: 'Burger'
     },
     {
-        FoodImage: '../../FoodData/FoodImages/Cake.png',
+        FoodImage: '././FoodData./FoodImages./Cake.png',
         FoodName: 'Cake'
     },
     {
