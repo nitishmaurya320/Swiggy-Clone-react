@@ -1,6 +1,6 @@
 const FoodData=[
     {
-        FoodImage: '././FoodData/FoodImages/Biryani.png',
+        FoodImage: '../../FoodData./FoodImages./Biryani.png',
         FoodName: 'Biryani'
     },
     {
@@ -8,15 +8,15 @@ const FoodData=[
         FoodName: 'Burger'
     },
     {
-        FoodImage: '././FoodData/FoodImages/Cake.png',
+        FoodImage: '../../FoodData/FoodImages/Cake.png',
         FoodName: 'Cake'
     },
     {
-        FoodImage: '././FoodData/FoodImages/Noodles.png',
+        FoodImage: '//FoodData/FoodImages/Noodles.png',
         FoodName: 'Noodles'
     },
     {
-        FoodImage: '././FoodData/FoodImages/North-Indian.png',
+        FoodImage: '//FoodData./FoodImages./North-Indian.png',
         FoodName: 'North Indian'
     },
     {
