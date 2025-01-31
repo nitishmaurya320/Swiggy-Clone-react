@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"Swiggy-Clone-react/",
+  base:"/Swiggy-Clone-react/",
   plugins: [react() ,tailwindcss()],
 })
