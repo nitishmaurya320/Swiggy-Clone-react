@@ -5,6 +5,8 @@ import FoodData from "../../FoodData/FoodData.js";
 
 
 
+
+
 const Category=()=>{   
     const [slide,SetSlide] = useState(0);
 
@@ -19,20 +21,20 @@ const Category=()=>{
         SetSlide(slide+3);
     }
 
-    return ( <div className='w-5/6 mx-auto min-w-[1000px]'>
+    return ( <div className='w-[75%] mx-auto  '>
         <div className='flex items-center  justify-between mt-3'>
-                 <div className='font-bold text-[24px]'    >What's on your mind</div>
+                 <div className='font-bold text-[24px]' style={{fontFamily: "Poppins"}} >What's on your mind ?</div>
             <div className='flex'>
                 <div className='text-gray-400 text-[40px] hover:opacity-[0.6] cursor-pointer '><IoArrowBackCircle onClick={prevSlide}/></div>
                 <div className='text-gray-400 text-[40px] hover:opacity-[0.6] cursor-pointer'><IoArrowForwardCircle onClick={nextSlide}/></div>
             </div>
             
         </div>
-            <div className='flex mt-[20px] overflow-hidden border-b-1 border-slate-500 pb-5'>
+            <div className='flex mt-[20px] overflow-hidden border-b-1 border-slate-300 pb-5'>
                 {
                     FoodData.map((Item)=>{
                         return <div style={ {transform: `translateX(${slide*100}%)`}} className=' duration-500 w-[150px] h-[150px] items-center justify-center flex-col text-center shrink-0 '><img className='h-[100px] m-auto' src={Item.FoodImage}></img>
-                        <div className='mt-auto'>{Item.FoodName}</div>
+                        <div className='mt-auto text-[#686b78] text-[20px] ' style={{font:"Poppins"}}>{Item.FoodName}</div>
                         </div> 
                                 
                     })
