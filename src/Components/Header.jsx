@@ -55,7 +55,7 @@ return (
         <header className='p-7 shadow-xl'>
             <div className='w-5/6  mx-auto flex'>
             <div className='w-[100px]'>
-                <img className='w-full' src="Images/Swiggy-logo.png"></img>
+                <img className='w-full' src="./public/Images/Swiggy-logo.png"></img>
             </div>
             <div className='flex items-center'>
                 <span className='text-orange-500'><u className='font-bold'>Ratanada </u></span> Jodhpur, Rajasthan, India <RxCaretDown className='font-bold inline text-[orange] cursor-pointer' onClick={showSideMenu}/>
