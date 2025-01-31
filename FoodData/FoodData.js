@@ -1,10 +1,10 @@
 const FoodData=[
     {
-        FoodImage: '../../FoodData./FoodImages./Biryani.png',
+        FoodImage: 'FoodData/FoodImages/Biryani.png',
         FoodName: 'Biryani'
     },
     {
-        FoodImage: '././FoodData/FoodImages/Burger.png',
+        FoodImage: './FoodData/FoodImages/Burger.png',
         FoodName: 'Burger'
     },
     {
@@ -12,7 +12,7 @@ const FoodData=[
         FoodName: 'Cake'
     },
     {
-        FoodImage: '//FoodData/FoodImages/Noodles.png',
+        FoodImage: './FoodImages/Noodles.png',
         FoodName: 'Noodles'
     },
     {
