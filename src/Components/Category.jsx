@@ -13,10 +13,12 @@ const Category=()=>{
     const nextSlide = () =>{
         if(FoodData.length-25==slide) return (false);
         console.log(slide);
-        console.log(FoodData.length);
+        // console.log(FoodData.length);
         SetSlide(slide-3);
     }
     const prevSlide = () =>{
+        console.log(slide);
+        // console.log(FoodData.length);
         if(0==slide) return (false);
         SetSlide(slide+3);
     }
