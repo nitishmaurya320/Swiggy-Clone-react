@@ -71,7 +71,7 @@ return (
     </div>
     
         <header className='p-3 shadow-xl w-full sticky top-0 z-[999] bg-white' style={{fontFamily:"Poppins"}}>
-            <div className='w-[98%]  mx-auto flex'>
+            <div className='w-[1200px]  mx-auto flex'>
             <div className='w-[100px]'>
                 <img className='w-full hover:scale-107 duration-100 cursor-pointer' src="Images/Swiggy-logo.png"></img>
             </div>
